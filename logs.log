@@ -2915,3 +2915,23 @@
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-05-09 17:16:15,233:INFO:Initializing load_model()
 2024-05-09 17:16:15,234:INFO:load_model(model_name=C:\Users\BS-Test\Machine-failure-prediction\model\predictive_maintenance, platform=None, authentication=None, verbose=True)
+2024-05-09 17:16:18,357:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:16:18,358:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:16:18,358:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:16:18,358:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:16:19,322:INFO:Initializing load_model()
+2024-05-09 17:16:19,322:INFO:load_model(model_name=C:\Users\BS-Test\Machine-failure-prediction\model\predictive_maintenance, platform=None, authentication=None, verbose=True)
+2024-05-09 17:18:51,691:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:18:51,696:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:18:51,696:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:18:51,696:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-09 17:18:52,637:INFO:Initializing load_model()
+2024-05-09 17:18:52,637:INFO:load_model(model_name=C:\Users\BS-Test\Machine-failure-prediction\model\predictive_maintenance, platform=None, authentication=None, verbose=True)

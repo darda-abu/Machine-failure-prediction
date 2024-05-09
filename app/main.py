@@ -32,6 +32,6 @@ def predict(data: InputData):
     }
 
     prediction = predict_class(input_dict)
-    predicted_label = get_label(prediction)  # Extract the dictionary from InputData
+    predicted_label = get_label(prediction)  
     return {"prediction": predicted_label}
 
