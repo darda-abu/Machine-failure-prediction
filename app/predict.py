@@ -10,15 +10,23 @@ import numpy as np
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-model = load_model(f"{BASE_DIR}\\model\\predictive_maintenance")
+model = load_model(f"{BASE_DIR}/model/predictive_maintenance")
 
 
 def get_label(label):
-    with open(f"{BASE_DIR}\\data\\label_mapping.json", 'r') as f:
+    with open(f"{BASE_DIR}/data/label_mapping.json", 'r') as f:
         label_mapping = json.load(f)
     return {v: k for k, v in label_mapping.items()}[label]
 
-features = np.loadtxt(f"{BASE_DIR}\\data\\X_Columns.csv", delimiter =',', dtype=str)
+# features = np.loadtxt(f"{BASE_DIR}/data/X_Columns.csv", delimiter =',', dtype=str)
+features = ["Air temperature [K]",
+"Process temperature [K]",
+"Rotational speed [rpm]",
+"Torque [Nm]",
+"Tool wear [min]",
+"Type_H",
+"Type_L",
+"Type_M"]
 
 def process(input_df):
     input_df_encoded = pd.get_dummies(input_df, columns=['Type']).astype('int')
@@ -26,7 +34,7 @@ def process(input_df):
     for col in missing_cols:
         input_df_encoded[col] = 0
     input_df_encoded = input_df_encoded[features]
-    scaler = joblib.load(f"{BASE_DIR}\\data\\scaler.pkl")
+    scaler = joblib.load(f"{BASE_DIR}/data/scaler.pkl")
     input_df_encoded = scaler.transform(input_df_encoded)
     input_df_encoded = pd.DataFrame(input_df_encoded, columns=features)
     return input_df_encoded
