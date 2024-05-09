@@ -1,2 +1,4 @@
 model/logs.log
 data/logs.log
+logs.log
+app/__pycache__/main.cpython-311.pyc
