@@ -15,13 +15,13 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/project-name.git
+    git clone https://github.com/darda-abu/Machine-failure-prediction.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd project-name
+    cd Machine-failure-prediction
     ```
 
 3. Ensure Docker is installed on your system.
@@ -29,13 +29,13 @@ To get started with the project, follow these steps:
 4. Build the Docker image using the provided Dockerfile:
 
     ```bash
-    docker build -t project-name .
+    docker build -t Machine-failure-prediction .
     ```
 
 5. Run the Docker container:
 
     ```bash
-    docker run -it project-name
+    docker run -it Machine-failure-prediction
     ```
 
 ## License
