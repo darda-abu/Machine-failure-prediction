@@ -1,4 +1,4 @@
-# Project Name
+# Machine Failure Prediction
 
 This project aims to predict machine falures depending on different criteria.
 
