@@ -26,19 +26,13 @@ To get started with the project, follow these steps:
 
 3. Ensure Docker is installed on your system.
 
-4. Build the Docker image using the provided Dockerfile:
+4. Build the Docker image and run the container using the provided Dockerfile:
 
     ```bash
-    docker build -t Machine-failure-prediction .
+    docker compose up --build
     ```
 
-5. Run the Docker container:
+## Predicting in postman
+![image](https://github.com/darda-abu/Machine-failure-prediction/assets/167751588/56fe203e-957c-4662-a576-cac42e86d2d7)
 
-    ```bash
-    docker run -it Machine-failure-prediction
-    ```
-
-## License
-
-This project is licensed under the [nothing] - see the [LICENSE.md](LICENSE.md) file for details.
 
