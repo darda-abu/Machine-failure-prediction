@@ -3325,3 +3325,13 @@
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2024-05-09 19:12:09,179:INFO:Initializing load_model()
 2024-05-09 19:12:09,180:INFO:load_model(model_name=C:\Users\BS-Test\Machine-failure-prediction/model/predictive_maintenance, platform=None, authentication=None, verbose=True)
+2024-05-10 11:28:12,842:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-10 11:28:12,843:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-10 11:28:12,843:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-10 11:28:12,843:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-10 11:28:15,108:INFO:Initializing load_model()
+2024-05-10 11:28:15,108:INFO:load_model(model_name=C:\Users\BS-Test\Machine-failure-prediction/model/predictive_maintenance, platform=None, authentication=None, verbose=True)
