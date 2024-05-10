@@ -4,9 +4,9 @@ This project aims to [brief description of the project].
 
 ## Usage
 
-- The `app/main` file serves as the main entry point for the application.
-- Data-related work is stored in the `data` directory. The primary file for data processing is `process.ipynb`.
-- Model training files are located in the `model` directory. The main training code resides in `model/train.ipynb`.
+- The [`app/main`](app/main) file serves as the main entry point for the application.
+- Data-related work is stored in the `data` directory. The primary file for data processing is [`data/process.ipynb`](data/process.ipynb).
+- Model training files are located in the `model` directory. The main training code resides in [`model/train.ipynb`](model/train.ipynb).
 
 ## Getting Started
 
