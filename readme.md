@@ -32,7 +32,16 @@ To get started with the project, follow these steps:
     docker compose up --build
     ```
 
-## Predicting in postman
+## USAGE
+
+### Model 
+#### Performance of DIfferent models
+![image](https://github.com/darda-abu/Machine-failure-prediction/assets/167751588/35940227-e331-4269-8be9-b99332a11055)
+
+#### Choosing Light Gradient Boosting Machine as it performs better than the others.
+![image](https://github.com/darda-abu/Machine-failure-prediction/assets/167751588/befd5e2a-5581-450a-8249-e47996a36ac5)
+
+### Predicting in postman
 ![image](https://github.com/darda-abu/Machine-failure-prediction/assets/167751588/56fe203e-957c-4662-a576-cac42e86d2d7)
 
 
